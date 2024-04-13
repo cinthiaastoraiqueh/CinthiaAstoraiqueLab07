@@ -3,13 +3,14 @@ import './App.css'
 //import { WapperList  } from './components/WrapperList'
 //import { List  } from './components/List'
 //import { Button  } from './components/Button'
-import { RandomComponent } from './components/RandomComponent'
+//import { RandomComponent } from './components/RandomComponent'
+import  CompWithProps  from './components/CompWithProps'
 function App() {
 
   return (
     <>
-      <h1>mi proyecto en vite</h1>
-      <RandomComponent />
+      
+      <CompWithProps/>
      
     </>
   )

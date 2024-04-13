@@ -1,14 +1,14 @@
 
 import './App.css'
-import { WapperList  } from './components/WrapperList'
-import { List  } from './components/List'
+//import { WapperList  } from './components/WrapperList'
+//import { List  } from './components/List'
+import { Button  } from './components/Button'
 function App() {
 
   return (
     <>
-      <WapperList>
-        <List/>
-      </WapperList>
+      <h1>mi proyecto en vite</h1>
+      <Button/>
      
     </>
   )
